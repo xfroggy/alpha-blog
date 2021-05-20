@@ -1,0 +1,62 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+/* Sticky footer classes */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: lightgrey;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  
+/* Navbar */
+
+.navbar{
+    background-color: black !important;
+}
+
+.nav-link {color: white !important;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  
+}
+
+.container__padding-top {
+    padding-top: 3rem;
+}
+
+.jumbotron {
+    background-image: asset-url('jumbo-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 425px;
+}
+
+/* Bootstrap 5 fix - no underline on links unless hovering */
+
+.text-underline-hover {
+  text-decoration: none;
+}
+
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
